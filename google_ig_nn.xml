@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+	<ModulePrefs 
+		title="BlueGhost PG: Now &amp; Next"
+		description="Now and Next TV Listings (UK only)"
+		title_url="http://tv.blueghost.co.uk/"
+		directory_title="Now and Next TV Listings (UK only)"
+		author="Michael Pritchard"
+		author_email="blueghostuk+nospamplease@gmail.com"
+		author_location="Telford, UK"
+		screenshot="http://tv.blueghost.co.uk/images/google_ig_nn.jpg"
+		render_inline="optional"
+		scrolling="true" /> 
+	<UserPref 
+		name="channels" 
+		display_name="Channels" 
+		required="true" 
+		default_value="1+2+32+33+30" />
+	<UserPref 
+		name="comment" 
+		display_name="How to get channel numbers" 
+		required="true" 
+		default_value="Use channel builder @ http://tv.blueghost.co.uk/nn.php to get the channel numbers" />
+	<Content 
+		type="url" 
+		href="http://tv.blueghost.co.uk/feeds/html/nnp/__UP_channels__" />	
+</Module>

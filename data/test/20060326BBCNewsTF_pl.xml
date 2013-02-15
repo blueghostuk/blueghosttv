@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='ISO-8859-9'?>
+<TVAMain xmlns='urn:tva:metadata:2002' xmlns:mpeg7='urn:mpeg:mpeg7:schema:2001' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:tva:metadata:2002 ETSI-v1.2.1\tva_metadata.xsd'>
+  <!--This data is strictly for non-commercial use only.  See http://backstage.bbc.co.uk/archives/2005/01/terms_of_use.html for details of the terms and conditions.-->
+  <ProgramDescription>
+    <ProgramLocationTable>
+      <Schedule serviceIDRef='BBCNewsTF' start='2006-03-26T00:00:00Z' end='2006-03-26T23:59:59Z'>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388831'/>
+          <ProgramURL>dvb://233a.1004.113f;b91f@2006-03-26T00:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T00:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388836'/>
+          <ProgramURL>dvb://233a.1004.113f;b924@2006-03-26T00:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T00:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388824'/>
+          <ProgramURL>dvb://233a.1004.113f;b918@2006-03-26T01:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T01:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388837'/>
+          <ProgramURL>dvb://233a.1004.113f;b925@2006-03-26T01:30:00Z/PT00H29M</ProgramURL>
+          <PublishedStartTime>2006-03-26T01:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388832'/>
+          <ProgramURL>dvb://233a.1004.113f;b920@2006-03-26T02:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T02:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388838'/>
+          <ProgramURL>dvb://233a.1004.113f;b926@2006-03-26T02:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T02:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388834'/>
+          <ProgramURL>dvb://233a.1004.113f;b922@2006-03-26T03:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T03:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388839'/>
+          <ProgramURL>dvb://233a.1004.113f;b927@2006-03-26T03:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T03:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388833'/>
+          <ProgramURL>dvb://233a.1004.113f;b921@2006-03-26T04:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T04:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388840'/>
+          <ProgramURL>dvb://233a.1004.113f;b928@2006-03-26T04:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T04:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388841'/>
+          <ProgramURL>dvb://233a.1004.113f;b929@2006-03-26T05:00:00Z/PT01H00M</ProgramURL>
+          <PublishedStartTime>2006-03-26T05:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388843'/>
+          <ProgramURL>dvb://233a.1004.113f;b92b@2006-03-26T06:00:00Z/PT01H00M</ProgramURL>
+          <PublishedStartTime>2006-03-26T06:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388842'/>
+          <ProgramURL>dvb://233a.1004.113f;b92a@2006-03-26T07:00:00Z/PT00H59M</ProgramURL>
+          <PublishedStartTime>2006-03-26T07:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388828'/>
+          <ProgramURL>dvb://233a.1004.113f;b91c@2006-03-26T08:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T08:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388844'/>
+          <ProgramURL>dvb://233a.1004.113f;b92c@2006-03-26T08:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T08:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388826'/>
+          <ProgramURL>dvb://233a.1004.113f;b91a@2006-03-26T09:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T09:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388845'/>
+          <ProgramURL>dvb://233a.1004.113f;b92d@2006-03-26T09:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T09:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388829'/>
+          <ProgramURL>dvb://233a.1004.113f;b91d@2006-03-26T10:00:00Z/PT00H10M</ProgramURL>
+          <PublishedStartTime>2006-03-26T10:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H10M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388846'/>
+          <ProgramURL>dvb://233a.1004.113f;b92e@2006-03-26T10:10:00Z/PT00H50M</ProgramURL>
+          <PublishedStartTime>2006-03-26T10:10:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H50M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388835'/>
+          <ProgramURL>dvb://233a.1004.113f;b923@2006-03-26T11:00:00Z/PT01H00M</ProgramURL>
+          <PublishedStartTime>2006-03-26T11:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388823'/>
+          <ProgramURL>dvb://233a.1004.113f;b917@2006-03-26T12:00:00Z/PT01H00M</ProgramURL>
+          <PublishedStartTime>2006-03-26T12:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388830'/>
+          <ProgramURL>dvb://233a.1004.113f;b91e@2006-03-26T13:00:00Z/PT00H29M</ProgramURL>
+          <PublishedStartTime>2006-03-26T13:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388847'/>
+          <ProgramURL>dvb://233a.1004.113f;b92f@2006-03-26T13:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T13:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388820'/>
+          <ProgramURL>dvb://233a.1004.113f;b914@2006-03-26T14:00:00Z/PT00H29M</ProgramURL>
+          <PublishedStartTime>2006-03-26T14:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388848'/>
+          <ProgramURL>dvb://233a.1004.113f;b930@2006-03-26T14:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T14:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388818'/>
+          <ProgramURL>dvb://233a.1004.113f;b912@2006-03-26T15:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T15:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388849'/>
+          <ProgramURL>dvb://233a.1004.113f;b931@2006-03-26T15:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T15:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388827'/>
+          <ProgramURL>dvb://233a.1004.113f;b91b@2006-03-26T16:00:00Z/PT01H00M</ProgramURL>
+          <PublishedStartTime>2006-03-26T16:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388816'/>
+          <ProgramURL>dvb://233a.1004.113f;b910@2006-03-26T17:00:00Z/PT00H45M</ProgramURL>
+          <PublishedStartTime>2006-03-26T17:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H45M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388850'/>
+          <ProgramURL>dvb://233a.1004.113f;b932@2006-03-26T17:45:00Z/PT00H15M</ProgramURL>
+          <PublishedStartTime>2006-03-26T17:45:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H15M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388821'/>
+          <ProgramURL>dvb://233a.1004.113f;b915@2006-03-26T18:00:00Z/PT01H00M</ProgramURL>
+          <PublishedStartTime>2006-03-26T18:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388822'/>
+          <ProgramURL>dvb://233a.1004.113f;b916@2006-03-26T19:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T19:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388851'/>
+          <ProgramURL>dvb://233a.1004.113f;b933@2006-03-26T19:30:00Z/PT00H30M</ProgramURL>
+          <InstanceMetadataId>imi:bbc.co.uk/289388851</InstanceMetadataId>
+          <PublishedStartTime>2006-03-26T19:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388825'/>
+          <ProgramURL>dvb://233a.1004.113f;b919@2006-03-26T20:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T20:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388852'/>
+          <ProgramURL>dvb://233a.1004.113f;b934@2006-03-26T20:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T20:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388817'/>
+          <ProgramURL>dvb://233a.1004.113f;b911@2006-03-26T21:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T21:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388853'/>
+          <ProgramURL>dvb://233a.1004.113f;b935@2006-03-26T21:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T21:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388819'/>
+          <ProgramURL>dvb://233a.1004.113f;b913@2006-03-26T22:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T22:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388854'/>
+          <ProgramURL>dvb://233a.1004.113f;b936@2006-03-26T22:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T22:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388857'/>
+          <ProgramURL>dvb://233a.1004.113f;b939@2006-03-26T23:00:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T23:00:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid='crid://bbc.co.uk/289388876'/>
+          <ProgramURL>dvb://233a.1004.113f;b94c@2006-03-26T23:30:00Z/PT00H30M</ProgramURL>
+          <PublishedStartTime>2006-03-26T23:30:00Z</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+      </Schedule>
+    </ProgramLocationTable>
+  </ProgramDescription>
+</TVAMain>

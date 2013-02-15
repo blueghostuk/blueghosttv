@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+	<ModulePrefs 
+		title="BlueGhost TV: Now &amp; Next"
+		title_url="http://tv.blueghost.co.uk/" /> 
+	<UserPref name="channels" display_name="Channels" required="true" default_value="1+2+32+33+30" />
+	<UserPref name="update" display_name="Version" required="true" default_value="0.12" />
+	<Content type="html"> 
+		<![CDATA[ 
+			<script type="text/javascript">
+				
+				var xmlDoc__MODULE_ID__;
+								
+				function parseXML__MODULE_ID__(response){
+					alert(response);
+					if (window.ActiveXObject){
+						  xmlDoc__MODULE_ID__ = new ActiveXObject("Microsoft.XMLDOM");
+						  xmlDoc__MODULE_ID__.async=false;
+						  xmlDoc__MODULE_ID__.loadXML(response);
+						  parseXML__MODULE_ID__();
+					}
+					// code for Mozilla, etc.
+					else if (document.implementation && document.implementation.createDocument){
+						  xmlDoc__MODULE_ID__= document.implementation.createDocument("","",null);
+						  xmlDoc__MODULE_ID__.loadXML(response);
+						  xmlDoc__MODULE_ID__.onload=parseXML__MODULE_ID__;
+					}else{
+					  	alert('Your browser cannot handle this script');
+					}					
+				}
+				
+				function parseXML__MODULE_ID__(){
+					var items = xmlDoc__MODULE_ID__.documentElement.getElementsByTagName("item");
+					for (var i = 0; i < items.length; i++) {
+						document.write('<a href="'+items[i].getAttribute("link")+'" title="'+items[i].getAttribute("synopsis")+'" target="_blank"><strong>'+items[i].getAttribute("channel")+'</strong> - '+items[i].getAttribute("title")+' ( '+items[i].getAttribute("start_time")+' - '+items[i].getAttribute("end_time")+' )</a><br />');
+					}
+					document.write('supported by <a href="http://backstage.bbc.co.uk" target="_blank">backstage.bbc.co.uk</a>');
+				}
+				
+				function onLoad__MODULE_ID__(){
+					var prefs__MODULE_ID__ = new _IG_Prefs(__MODULE_ID__);
+					var channelList__MODULE_ID__ = prefs__MODULE_ID__.getString("channels");
+					_IG_FetchContent('http://tv.blueghost.co.uk/feeds/xml/nnp/'+channelList__MODULE_ID__, parseXML__MODULE_ID__);
+				}
+				
+				_IG_RegisterOnloadHandler(onLoad__MODULE_ID__);
+			</script>
+     	]]> 
+   	</Content> 
+</Module>

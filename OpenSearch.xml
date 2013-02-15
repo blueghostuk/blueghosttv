@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>BlueGhost TV</ShortName>
+  <Description>Search for TV Programs</Description>
+  <Tags>uk tv</Tags>
+  <Url type="application/rss+xml" 
+       template="http://www.blueghosttv.co.uk/ajax_search.php?query={searchTerms}"/>
+</OpenSearchDescription>

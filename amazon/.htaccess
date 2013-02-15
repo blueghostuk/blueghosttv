@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^item/([A-Za-z0-9]+)/?$ item.php?id=$1 [L]
+RewriteRule ^cart/view/?$ cart.php?op=view [L]
+RewriteRule ^cart/delete/?$ cart.php?op=delete [L]
+RewriteRule ^cart/complete/?$ cart.php?op=complete [L]
+RewriteRule ^cart/add/([A-Za-z0-9]+)/?$ cart.php?op=add&id=$1 [L]

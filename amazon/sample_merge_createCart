@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CartCreateResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2005-02-23">
+	<OperationRequest>
+		<HTTPHeaders>
+			<Header Name="UserAgent"></Header>
+		</HTTPHeaders>
+		<RequestId>0G38KW1RKN2XZM53M851</RequestId>
+		<Arguments>
+			<Argument Name="MergeCart" Value="True"></Argument>
+			<Argument Name="Service" Value="AWSECommerceService"></Argument>
+			<Argument Name="Item.1.ASIN" Value="0563535008"></Argument>
+			<Argument Name="SubscriptionId" Value="0S1VTTJWDR66QRK6Z982"></Argument>
+			<Argument Name="Item.1.Quantity" Value="1"></Argument>
+			<Argument Name="ResponseGroup" Value="Cart"></Argument>
+			<Argument Name="Operation" Value="CartCreate"></Argument>
+		</Arguments>
+		<RequestProcessingTime>0.233978033065796</RequestProcessingTime>
+	</OperationRequest>
+	<Cart>
+		<Request>
+			<IsValid>True</IsValid>
+			<CartCreateRequest>
+				<MergeCart>True</MergeCart>
+				<Items>
+					<Item>
+						<ASIN>0563535008</ASIN>
+						<Quantity>1</Quantity>
+					</Item>
+				</Items>
+				<ResponseGroup>Cart</ResponseGroup>
+			</CartCreateRequest>
+		</Request>
+	<CartId>202-4538050-5717407</CartId>
+	<HMAC>G7fJEO4qMWODNVLgbd3j0SjkIXg=</HMAC>
+	<URLEncodedHMAC>G7fJEO4qMWODNVLgbd3j0SjkIXg=</URLEncodedHMAC>
+	<PurchaseURL>https://www.amazon.co.uk/gp/cart/aws-merge.html?cart-id=202-4538050-5717407%26associate-id=ws%26hmac=G7fJEO4qMWODNVLgbd3j0SjkIXg=%26SubscriptionId=0S1VTTJWDR66QRK6Z982%26MergeCart=True</PurchaseURL>
+	<SubTotal>
+		<Amount>2099</Amount>
+		<CurrencyCode>GBP</CurrencyCode>
+		<FormattedPrice>£20.99</FormattedPrice>
+	</SubTotal>
+	<CartItems>
+		<CartItem>
+			<CartItemId>U1FP3RRYE5LXQM</CartItemId>
+			<ASIN>0563535008</ASIN>
+			<MerchantId>A3P5ROKL5A1OLE</MerchantId>
+			<Quantity>1</Quantity>
+			<Title>Doctor Who: Dalek's Master Plan (Doctor Who S.)</Title>
+			<ProductGroup>Book</ProductGroup>
+			<Price>
+				<Amount>2099</Amount>
+				<CurrencyCode>GBP</CurrencyCode>
+				<FormattedPrice>£20.99</FormattedPrice>
+			</Price>
+			<ItemTotal>
+				<Amount>2099</Amount>
+				<CurrencyCode>GBP</CurrencyCode>
+				<FormattedPrice>£20.99</FormattedPrice>
+			</ItemTotal>
+		</CartItem>
+	</CartItems>
+</Cart>
+</CartCreateResponse>

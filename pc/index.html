@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="../styles/style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BlueGhost PCPG</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+var agt = navigator.userAgent.toLowerCase();
+if (agt.indexOf('gecko') != -1){ /*MOZ SPECIFIC CSS */
+	document.write('<style type="text/css">');
+		document.write('div.menu_right {');
+			document.write('position: fixed;');
+		document.write('}');
+	document.write('</style>');
+}
+</script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-67957-3";
+urchinTracker();
+</script>
+</head>
+
+<body>
+<div class="menu_right">
+<a href="#download" title="Download Links">DOWNLOAD</a>
+<a href="#intro">INTRO</a>
+<a href="#screens">SCREENSHOTS</a>
+<a href="#clog">CHANGELOG</a></div>
+<div id="header">
+<a href="/pc/">BlueGhost PC P(rogram) G(uide)</a></div>
+<div id="content">
+	<div class="prog">
+	  <h1 id="announcement" align="center">This Project is now hosted on Codeplex @ <a href="http://www.codeplex.com/Wiki/View.aspx?ProjectName=blueghosttv" target="_blank">http://www.codeplex.com/Wiki/View.aspx?ProjectName=blueghosttv</a></h1>
+	  <h1><u>Intro</u></h1>
+	  <p>This is a PC application TV Guide.</p>
+	  <p>It is built in C# .net 2.0 so requires the .net 2.0 runtimes (22 MB download).<br />
+	  It also uses the <a href="http://www.icsharpcode.net/OpenSource/SharpZipLib/Default.aspx" target="_blank">SharpZipLib</a> library to extract the BBC data files.<br />
+	  It also used the <a href="http://sharppdf.sourceforge.net/" target="_blank">SharpPDF</a> library to generate PDF tv guides</p>
+	  <h1 id="other"><u>Other Info </u></h1>
+	  <p>Use the installer and the program should be under Start-&gt;Programs-&gt;BlueGhost.co.uk </p>
+	  <p>To get any data you will need to open the program and go to &quot;Options&quot; -&gt; &quot;Download Options&quot; -&gt; &quot;Download BBC/Bleb Only &quot;. There will be a longish pause here (you should be updated with the status either in the app itself or by the notification icon near the windows clock). The program may appear to freeze, then you will see on the status bar the program loading the data. The download will download upto 7 days of data so you only need run the update once every 5 or 6 days, although you can download every day if you want. The BBC release the daily file at about 8.30AM, but if for some reason the file is not available it will try to get the previous days file. You will get warned at start up if you haven't downloaded data in the past 3 days. </p>
+	  <p>All data files are stored in &quot;c:\documents and settings\user_name\application data\btv\data\&quot;  each day taken up around 1.1MB - there is a deletion mechanism in Options-&gt;Preferences, but no automatic clearing method as yet. </p>
+	  <h1 id="download"><u>Download Links </u></h1>
+	  <p>You can download the executable from:</p>
+	  <ul>
+	    <li><a href="http://www.codeplex.com/Release/ProjectReleases.aspx?ProjectName=blueghosttv&amp;ReleaseId=1027" target="_blank">http://www.codeplex.com/Release/ProjectReleases.aspx?ProjectName=blueghosttv&amp;ReleaseId=1027</a></li>
+      </ul>
+	  <p>You will also need the latest .net 2.0 runtime files, they should be downloaded if you don't have them already as part of the install process.</p>
+	  <p>Report any problems or suggestions via email to be at:</p>
+	  <p id="contact"><img src="http://www.blueghost.co.uk/grease/email.png" /></p>
+	  <div style="clear:both;">
+	  <h1 id="clog"><strong><u>Changelog</u></strong></h1>
+	  <h3><strong>Any Updates will be reported here (if I have the time to do so):</strong></h3>
+	  <ul>
+		<li>1 November
+		  <ul>
+		    <li>Click Once no longer actively supported (although I will probably still do updates)</li>
+	        <li>Latest Code + Bug Fixes </li>
+	        <li>Releases now hosted on CodePlex: <a href="http://www.codeplex.com/Release/ProjectReleases.aspx?ProjectName=blueghosttv&amp;ReleaseId=948" target="_blank">http://www.codeplex.com/Release/ProjectReleases.aspx?ProjectName=blueghosttv&amp;ReleaseId=948</a>  </li>
+		  </ul>
+		</li>
+		<li>17 August - build 0.0.1.44 (Click Once,  64 Bit setups all updated)
+		  <ul>
+		    <li>Re-organised display of favourite programs list to display favourite programs on a day-by-day basis</li>
+	        <li>Re-organised display of now/next display to be a list view</li>
+		    <li>General fixes:
+		      <ul>
+		        <li>started to give some of the bleb.org sourced channels friendly names</li>
+	            <li>odd bug fixes    </li>
+		      </ul>
+		    </li>
+	      </ul>
+		</li>
+		<li>08 June - build 0.0.1.37
+		  <ul>
+		    <li>ITV have banned bleb.org (one of my data sources) from getting TV data, so ITV data is no longer available (bleb.org also seems to be down now anyway)</li>
+	        <li>General fixes:
+	          <ul>
+	            <li>unhandled exception - you can now send me an email if an unhandled exception occurs</li>
+                <li>getting started on the search mechanism - doesn't work yet though</li>
+	            <li>few performance enhancements      </li>
+	          </ul>
+	        </li>
+	      </ul>
+		</li>
+		<li>14 May - build 0.0.1.35
+		  <ul>
+		    <li>updated to use new bbc tv-anytime xsd schema</li>
+	        <li>removed requirement for having the report viewer control - don't know why it was ever there</li>
+		    <li>general performance fixes   </li>
+		  </ul>
+		</li>
+		<li>28 April - build 0.0.1.33
+		  <ul>
+		    <li> close to tray ( Options | Preferences | Minimise to tray on close) </li>
+	        <li>extra system tray icon right click options </li>
+	        <li>options and about box tab seperated. </li>
+	        <li>better bbc data collection - I now load the xml into a c# class using the xsd files and the xsd.exe generated classes (slightly modded) and then down-convert them to my own implementation
+	          <ul>
+	            <li>this gives me the option to add more features more easily by parsing the xml into a c# class  for me</li>
+              </ul>
+	        </li>
+	        <li>added keywords search for bbc programs (in the toolbar)
+	          <ul>
+	            <li>keywords also available for a bbc program under the &quot;Program Name&quot; | </li>
+              </ul>
+	        </li>
+		    <li>printing options (html, pdf to come)  </li>
+		    <li>Reminders and favourite programs in the next half an hour get a system tray pop-up (checked every 5 mins)</li>
+		  </ul>
+		</li>
+		<li>8 March - build 0.0.1.17 - loads of updates </li>
+		<li>7 December - build 0.0.1.9 - shouldn't have done 0.0.1.8 without testing it ! </li>
+		<li>7 December - build 0.0.1.8 - support for other tv channels from bleb.org/tv. Other tv channels not fully supported with all functions yet. </li>
+		<li>6 December - build 0.0.1.7  - adds support for custom channel selections, other channels from bleb.org/tv coming soon </li>
+		<li>1 December - Next preview release with installer + screenshots </li>
+		<li>28 November - Initial preview release - very basic</li>
+	  </ul>
+	</div>
+	  <h1 id="screens"><strong><u>Screenshots</u></strong> (some slightly out of date) </h1>
+	  <div class="caption">
+	  <p><img src="new_screens/tab1.png" width="831" height="515" /></p>
+	  <p>Main Screen with BBC 1 Selected (up-to-date) </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="screens/hori_view.jpg" width="644" height="510" /></p>
+	  <p>Horizontal View </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="screens/verti_view.jpg" width="644" height="510" /></p>
+	  <p>Vertical View </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="new_screens/prog_tab.png" width="831" height="515" /></p>
+	  <p>Program View, from clicking a program title on the single channel view, or from the search box (up-to-date) </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="screens/series_view.jpg" width="644" height="510" /></p>
+	  <p>Series View, from clicking &quot;See what other times this program is on&quot; in the program view </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="screens/search.jpg" width="287" height="90" /></p>
+	  <p>Search Box - autocomplete. Click on the program or press enter to go to program. </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="screens/downloading.jpg" width="563" height="203" /></p>
+	  <p>Initial Downloading, from Menu-&gt;Options-&gt;Download Options-&gt;Download &amp; Update </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="screens/decompress.jpg" width="309" height="110" /></p>
+	  <p>After downloading the data file is decompressed. The data is then reloaded.</p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="new_screens/reminders.png" width="831" height="515" /></p>
+	  <p>Reminders, currently added from Program Tab->Times Tab. Don't actually remind you yet(up-to-date) </p>
+	  </div>
+	  <div class="caption">
+	  <p><img src="new_screens/favs.png" width="831" height="515" /></p>
+	  <p>Favourites, currently added/removed from Program Tab->Times Tab. Like Sky Plus Series Link, gets all series links (up-to-date) </p>
+	</div>
+</div>
+  
+<div id="footer" align="center" style="clear:both;">
+| Copyright Michael Pritchard 2005 | <a href="/">Web TV Guide</a> |  <a href="/flash/">Flash TV Guide</a> | supported by <a href="http://backstage.bbc.co.uk" target="_blank">backstage.bbc.co.uk</a> | other data from <a href="http://www.bleb.org/tv/" target="_blank">http://www.bleb.org/tv/</a> |</div>
+</div>
+</body>
+</html>

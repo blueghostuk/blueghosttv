@@ -1,0 +1,2098 @@
+<?xml version='1.0' encoding='ISO-8859-9'?>
+<TVAMain xmlns='urn:tva:metadata:2002' xmlns:mpeg7='urn:mpeg:mpeg7:schema:2001' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:tva:metadata:2002 ETSI-v1.2.1\tva_metadata.xsd'>
+  <!--This data is strictly for non-commercial use only.  See http://backstage.bbc.co.uk/archives/2005/01/terms_of_use.html for details of the terms and conditions.-->
+  <ProgramDescription>
+    <ProgramInformationTable>
+      <ProgramInformation programId='crid://bbc.co.uk/289388831'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388836'>
+        <BasicDescription>
+          <Title><![CDATA[Reporters]]></Title>
+          <Synopsis length='short'><![CDATA[A weekly showcase for the best reports from the BBC's network of global correspondents.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERReporters'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388824'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388837'>
+        <BasicDescription>
+          <Title><![CDATA[Fast Track]]></Title>
+          <Synopsis length='short'><![CDATA[The latest news about travel, from the industry itself to deals and destinations, with current information on flights and holidays, and advice for people travelling on business or for leisure.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2.4'>
+            <Name><![CDATA[Advice]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.3.26'>
+            <Name><![CDATA[Consumer advice]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1'>
+            <Name><![CDATA[NON-FICTION]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/bbc_news_24/4353398.stm#fast_track</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERFastTrack'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388832'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388838'>
+        <BasicDescription>
+          <Title><![CDATA[Talking Movies]]></Title>
+          <Synopsis length='short'><![CDATA[Tom Brook presents all the latest news and reviews from the US cinema scene, with reports from Hollywood and New York.]]></Synopsis>
+          <Keyword type='main'><![CDATA[movie]]></Keyword>
+          <Keyword type='main'><![CDATA[cinema]]></Keyword>
+          <Keyword type='main'><![CDATA[review]]></Keyword>
+          <Keyword type='main'><![CDATA[films]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1'>
+            <Name><![CDATA[NON-FICTION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.2'>
+            <Name><![CDATA[Magazine]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.1'>
+            <Name><![CDATA[ENTERTAINMENT]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.10'>
+            <Name><![CDATA[Cultural]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.5'>
+            <Name><![CDATA[Discussion/Interview/Debate]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.4.5'>
+            <Name><![CDATA[Cinema]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:AtmosphereCS:2002:8.2'>
+            <Name><![CDATA[Analytical]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.3.10'>
+            <Name><![CDATA[Art]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.2'>
+            <Name><![CDATA[REPRESENTATION/PLAY]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.4'>
+            <Name><![CDATA[FICTION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:OriginationCS:2002:5.3'>
+            <Name><![CDATA[CINEMA INDUSTRY ORIGINATED]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbcworld.com/content/template_talkingmovies.asp?pageid=665</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388834'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388839'>
+        <BasicDescription>
+          <Title><![CDATA[Click]]></Title>
+          <Synopsis length='short'><![CDATA[Ebooks. Are ebooks ready to go mainstream? Richard Taylor heads to Japan to see how ebooks are taking off on mobile phones. Includes news and web reviews.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.3'>
+            <Name><![CDATA[EDUCATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.6'>
+            <Name><![CDATA[Sciences]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.6.8'>
+            <Name><![CDATA[Technology]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:clickonline@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/click_online/default.stm</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERClick'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388833'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388840'>
+        <BasicDescription>
+          <Title><![CDATA[The Record Europe]]></Title>
+          <Synopsis length='short'><![CDATA[An in-depth look at the politics of Europe presented by Shirin Wheeler.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.3.1'>
+            <Name><![CDATA[Political]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/bbc_parliament/3005449.stm</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERTheRecordEurope'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388841'>
+        <BasicDescription>
+          <Title><![CDATA[Breakfast]]></Title>
+          <Synopsis length='short'><![CDATA[The daily early morning news programme. Including Reporters and Fast Track.]]></Synopsis>
+          <PromotionalInformation><![CDATA[SMS:]]></PromotionalInformation>
+          <PromotionalInformation><![CDATA[Tel:]]></PromotionalInformation>
+          <Keyword type='main'><![CDATA[breakfast news]]></Keyword>
+          <Keyword type='main'><![CDATA[topical]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.9'>
+            <Name><![CDATA[Sports]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:OriginationCS:2002:5.1.1'>
+            <Name><![CDATA[Live]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/breakfast</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:breakfastTV@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBreakfast'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388843'>
+        <BasicDescription>
+          <Title><![CDATA[Breakfast]]></Title>
+          <Synopsis length='short'><![CDATA[The daily early morning news programme. Including Click.]]></Synopsis>
+          <PromotionalInformation><![CDATA[SMS:]]></PromotionalInformation>
+          <PromotionalInformation><![CDATA[Tel:]]></PromotionalInformation>
+          <Keyword type='main'><![CDATA[breakfast news]]></Keyword>
+          <Keyword type='main'><![CDATA[topical]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.9'>
+            <Name><![CDATA[Sports]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:OriginationCS:2002:5.1.1'>
+            <Name><![CDATA[Live]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/breakfast</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:breakfastTV@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBreakfast'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388842'>
+        <BasicDescription>
+          <Title><![CDATA[Breakfast]]></Title>
+          <Synopsis length='short'><![CDATA[The daily early morning news programme.]]></Synopsis>
+          <PromotionalInformation><![CDATA[SMS:]]></PromotionalInformation>
+          <PromotionalInformation><![CDATA[Tel:]]></PromotionalInformation>
+          <Keyword type='main'><![CDATA[breakfast news]]></Keyword>
+          <Keyword type='main'><![CDATA[topical]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.9'>
+            <Name><![CDATA[Sports]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:OriginationCS:2002:5.1.1'>
+            <Name><![CDATA[Live]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/breakfast</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:breakfastTV@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBreakfast'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388828'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388844'>
+        <BasicDescription>
+          <Title><![CDATA[BBC World News]]></Title>
+          <Synopsis length='short'><![CDATA[The latest international news from the BBC World Newsroom.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:OriginationCS:2002:5.1.1'>
+            <Name><![CDATA[Live]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCWorldNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388826'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388845'>
+        <BasicDescription>
+          <Title><![CDATA[Reporters]]></Title>
+          <Synopsis length='short'><![CDATA[A weekly showcase for the best reports from the BBC's network of global correspondents.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERReporters'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388829'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388846'>
+        <BasicDescription>
+          <Title><![CDATA[Dateline London]]></Title>
+          <Synopsis length='short'><![CDATA[Foreign correspondents based in London give an outsider's view of events in the UK.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.3.1'>
+            <Name><![CDATA[Political]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERDatelineLondon'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388835'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388823'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388830'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388847'>
+        <BasicDescription>
+          <Title><![CDATA[The Record Europe]]></Title>
+          <Synopsis length='short'><![CDATA[An in-depth look at the politics of Europe presented by Shirin Wheeler.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.3.1'>
+            <Name><![CDATA[Political]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/bbc_parliament/3005449.stm</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERTheRecordEurope'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388820'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break. [S]]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <CaptionLanguage closed='true'>EN-UK</CaptionLanguage>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388848'>
+        <BasicDescription>
+          <Title><![CDATA[Fast Track]]></Title>
+          <Synopsis length='short'><![CDATA[The latest news about travel, from the industry itself to deals and destinations, with current information on flights and holidays, and advice for people travelling on business or for leisure.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2.4'>
+            <Name><![CDATA[Advice]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.3.26'>
+            <Name><![CDATA[Consumer advice]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1'>
+            <Name><![CDATA[NON-FICTION]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/bbc_news_24/4353398.stm#fast_track</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERFastTrack'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388818'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break. [S]]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <CaptionLanguage closed='true'>EN-UK</CaptionLanguage>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388849'>
+        <BasicDescription>
+          <Title><![CDATA[Click]]></Title>
+          <Synopsis length='short'><![CDATA[Ebooks. Are ebooks ready to go mainstream? Richard Taylor heads to Japan to see how ebooks are taking off on mobile phones. Includes news and web reviews.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.3'>
+            <Name><![CDATA[EDUCATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.6'>
+            <Name><![CDATA[Sciences]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.6.8'>
+            <Name><![CDATA[Technology]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:clickonline@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/click_online/default.stm</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERClick'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388827'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388816'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388850'>
+        <BasicDescription>
+          <Title><![CDATA[Sportsday]]></Title>
+          <Synopsis length='short'><![CDATA[A round up of all the day's sports events.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.2'>
+            <Name><![CDATA[SPORTS]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.9'>
+            <Name><![CDATA[Sports]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/sport</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERSportsday'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388821'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388822'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388851'>
+        <BasicDescription>
+          <Title><![CDATA[Head 2 Head]]></Title>
+          <Synopsis length='short'><![CDATA[A lively topical discussion programme, with two studio guests from opposite sides of the political debate going head to head over the key issues and controversies of the week.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.1'>
+            <Name><![CDATA[ENTERTAINMENT]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.5'>
+            <Name><![CDATA[Discussion/Interview/Debate]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1'>
+            <Name><![CDATA[NON-FICTION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:OriginationCS:2002:5.1'>
+            <Name><![CDATA[STUDIO]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/bbcparliament</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:parliament@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERHead2Head'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388825'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388852'>
+        <BasicDescription>
+          <Title><![CDATA[Fast Track]]></Title>
+          <Synopsis length='short'><![CDATA[The latest news about travel, from the industry itself to deals and destinations, with current information on flights and holidays, and advice for people travelling on business or for leisure.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2.4'>
+            <Name><![CDATA[Advice]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.3.26'>
+            <Name><![CDATA[Consumer advice]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1'>
+            <Name><![CDATA[NON-FICTION]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/bbc_news_24/4353398.stm#fast_track</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERFastTrack'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388817'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388853'>
+        <BasicDescription>
+          <Title><![CDATA[Dateline London]]></Title>
+          <Synopsis length='short'><![CDATA[Foreign correspondents based in London give an outsider's view of events in the UK.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.3.1'>
+            <Name><![CDATA[Political]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERDatelineLondon'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388819'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388854'>
+        <BasicDescription>
+          <Title><![CDATA[Extra Time]]></Title>
+          <Synopsis length='short'><![CDATA[Alan Mills, Wimbledon Tournament Referee, talks to Rob Bonnet about the characters, incidents and traditions he hopes will never change at the world's most prestigious tennis tournament, Wimbledon.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.2'>
+            <Name><![CDATA[SPORTS]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.9'>
+            <Name><![CDATA[Sports]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/sport</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERExtraTime'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388857'>
+        <BasicDescription>
+          <Title><![CDATA[BBC News]]></Title>
+          <Synopsis length='short'><![CDATA[Twenty four hours a day: the latest national and international stories as they break.]]></Synopsis>
+          <Keyword type='main'><![CDATA[News]]></Keyword>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.1'>
+            <Name><![CDATA[Daily news]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.13'>
+            <Name><![CDATA[Weather forecasts]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1.1'>
+            <Name><![CDATA[Bulletin]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.15'>
+            <Name><![CDATA[Public Affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.16'>
+            <Name><![CDATA[Current affairs]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.6'>
+            <Name><![CDATA[National politics/National Assembly]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.8'>
+            <Name><![CDATA[Foreign/International]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://www.bbc.co.uk/news</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:bbcnews24@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERBBCNews'/>
+      </ProgramInformation>
+      <ProgramInformation programId='crid://bbc.co.uk/289388876'>
+        <BasicDescription>
+          <Title><![CDATA[Click]]></Title>
+          <Synopsis length='short'><![CDATA[Ebooks. Are ebooks ready to go mainstream? Richard Taylor heads to Japan to see how ebooks are taking off on mobile phones. Includes news and web reviews.]]></Synopsis>
+          <Synopsis length='long'><![CDATA[Ebooks
+
+Spencer Kelly looks into whether a concept which has been around for 15 years is finally ready to go mainstream, whilst Richard Taylor heads to Japan to see how ebooks are already taking off on mobile phones. Includes news and web reviews.]]></Synopsis>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.3'>
+            <Name><![CDATA[EDUCATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.6'>
+            <Name><![CDATA[Sciences]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.6.8'>
+            <Name><![CDATA[Technology]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:IntentionCS:2002:1.2'>
+            <Name><![CDATA[INFORMATION]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:FormatCS:2002:2.1'>
+            <Name><![CDATA[STRUCTURED]]></Name>
+          </Genre>
+          <Genre href='urn:tva:metadata:cs:ContentCS:2002:3.1.1.5'>
+            <Name><![CDATA[Periodical/General]]></Name>
+          </Genre>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:14'>
+              <Name>Support</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>mailto:clickonline@bbc.co.uk</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+          <RelatedMaterial>
+            <HowRelated href='urn:tva:metadata:cs:HowRelatedCS:2002:10'>
+              <Name>For more information</Name>
+            </HowRelated>
+            <MediaLocator>
+              <mpeg7:MediaUri>http://news.bbc.co.uk/1/hi/programmes/click_online/default.stm</mpeg7:MediaUri>
+            </MediaLocator>
+          </RelatedMaterial>
+        </BasicDescription>
+        <AVAttributes>
+          <AudioAttributes>
+            <NumOfChannels>2</NumOfChannels>
+          </AudioAttributes>
+          <VideoAttributes>
+            <AspectRatio>16:9</AspectRatio>
+          </VideoAttributes>
+        </AVAttributes>
+        <MemberOf xsi:type='MemberOfType' crid='crid://bbc.co.uk/__SERClick'/>
+      </ProgramInformation>
+    </ProgramInformationTable>
+  </ProgramDescription>
+</TVAMain>

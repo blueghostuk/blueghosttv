@@ -1,0 +1,47 @@
+.caption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border: thin solid #000000;
+	float: left;
+}
+div.menu_right {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	margin-right: 5px;
+	margin-top: 5px;
+	background-color: #666666;
+	color: #FFFFFF;
+}
+div.menu_right  a {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	text-decoration: none;
+	display:block;
+}
+div.menu_right  a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+	background-color: #CCCCCC;
+	margin: 0px;
+	padding: 5px;
+}
+div.content {
+	margin-right: 200px;
+}
+
+#content .prog #announcement {
+	background-color: #DCF5D6;
+	font-size: large;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 5px;
+	margin: 5px;
+	border: thin solid #000000;
+}

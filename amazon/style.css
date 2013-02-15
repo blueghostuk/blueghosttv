@@ -1,0 +1,95 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+}
+div.amazon_review {
+	
+}
+div.amazon_review_text {
+	margin: 15px;
+	font-family: sans-serif, helvetica, arial;
+}
+div.footer {
+	background-color: #ECE9D8;
+	margin: 10px;
+	padding: 5px;
+	border: thin solid #CCCCCC;
+	text-align: center;
+}
+div.web_page {
+	background-color: #ECE9D8;
+	margin: 10px;
+	padding: 5px;
+	border: thin solid #CCCCCC;
+}
+div.amazon_review_title {
+	background-color: #666666;
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 5px;
+	border: thin solid #000000;
+}
+div.amazon_review_text {
+	background-color: #666666;
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 5px;
+	border: thin solid #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+}
+a.review_show_hide {
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+img.item_logo {
+	border: 0;
+}
+a.search_item {
+	text-decoration: underline;
+	font-family: sans-serif, helvetica, arial;
+}
+div.amazon_search {
+	background-color: #ECE9D8;
+	text-align: center;
+	font-family: sans-serif, helvetica, arial;
+	border: thin solid #CCCCCC;
+}
+.navBar {
+	position: absolute;
+	height: 40px;
+	width: 800px;
+	top: 30px;
+	right: 20px;
+}
+.newsWin {
+	position: absolute;
+	height: 460px;
+	width: 800px;
+	top: 71px;
+	right: 20px;
+	border: thin solid #000000;
+}
+div.debug {
+	border-color: #000000;
+	border-width: 1;
+	width: 75%;
+	font-family: arial, helvetica, sans-serif;
+	background-color: #ADD8E6;
+}
+div.search_results {
+	background-color: #DCD7B6;
+	border: thin solid #999999;
+	margin: 5px;
+	padding: 5px;
+}
+div.item_page {
+	background-color: #DCD7B6;
+	border: thin solid #999999;
+	margin: 5px;
+	padding: 5px;
+}

@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ http://tv.blueghost.co.uk/$1 [R=301,L]

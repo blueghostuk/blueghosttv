@@ -1,0 +1,24 @@
+<?xml version="1.0"?><rss version="2.0">
+	<channel>
+		<title>BlueGhost PG - News</title>
+		<link>http://www.blueghosttv.co.uk/</link>
+		<copyright>Data From backstage.bbc.co.uk, bleb.org, code by Michael Pritchard (blueghost.co.uk)</copyright>		
+		<item>
+			<title>RSS Feed For Blueghost PCPG</title>
+			<pubDate>Sun, 12 Mar 2006 14:06:07 GMT</pubDate>
+			<link>http://www.blueghosttv.co.uk/pc/</link>
+			<description>More details to follow</description>
+		</item>
+		<item>
+			<title>ITV Data No Longer Available</title>
+			<pubDate>Sun, 12 Mar 2006 14:06:07 GMT</pubDate>
+			<link>http://www.blueghosttv.co.uk/pc/</link>
+			<description></description>
+		</item>
+		<item>
+			<title>64 Bit Version now available</title>
+			<pubDate>Sat, 05 August 2006 00:03:00 GMT</pubDate>
+			<link>http://www.blueghosttv.co.uk/pc/</link>
+			<description />
+		</item>
+</channel></rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+	<ModulePrefs 
+		title="BlueGhost PG: Channel Listing"
+		description="TV Listings (UK only)"
+		title_url="http://tv.blueghost.co.uk/"
+		directory_title="NTV Listings (UK only)"
+		author="Michael Pritchard"
+		author_email="blueghostuk+nospamplease@gmail.com"
+		author_location="Telford, UK"
+		screenshot="http://tv.blueghost.co.uk/images/google_ig_channel.jpg"
+		render_inline="optional"
+		scrolling="true" /> 
+	<UserPref 
+		name="channel" 
+		display_name="Channel" 
+		required="true" 
+		datatype="enum"
+		default_value="1"><EnumValue value="1" display_value="BBC One"/><EnumValue value="2" display_value="BBC Two"/><EnumValue value="32" display_value="ITV 1"/><EnumValue value="33" display_value="Channel 4"/><EnumValue value="30" display_value="five"/><EnumValue value="59" display_value="Sky One"/><EnumValue value="60" display_value="Sky Two"/><EnumValue value="78" display_value="Sky Three"/><EnumValue value="70" display_value="UKTV Gold"/><EnumValue value="36" display_value="Living TV"/><EnumValue value="4" display_value="BBC Three"/><EnumValue value="5" display_value="BBC Four"/><EnumValue value="34" display_value="ITV 2"/><EnumValue value="35" display_value="ITV 3"/><EnumValue value="79" display_value="ITV 4"/><EnumValue value="25" display_value="Challenge"/><EnumValue value="22" display_value="Bravo"/><EnumValue value="42" display_value="Paramount"/><EnumValue value="43" display_value="Paramount 2"/><EnumValue value="45" display_value="SciFi"/><EnumValue value="77" display_value="Discovery Real Time"/><EnumValue value="37" display_value="Men and Motors"/><EnumValue value="66" display_value="Sky Travel"/><EnumValue value="72" display_value="UKTV Style"/><EnumValue value="69" display_value="UKTV Drama"/><EnumValue value="44" display_value="s4c"/><EnumValue value="28" display_value="E4"/><EnumValue value="38" display_value="more 4"/><EnumValue value="68" display_value="UKTV Bright Ideas"/><EnumValue value="31" display_value="ftn"/><EnumValue value="48" display_value="Sky Movies 1"/><EnumValue value="49" display_value="Sky Movies 2"/><EnumValue value="50" display_value="Sky Movies 3"/><EnumValue value="51" display_value="Sky Movies 4"/><EnumValue value="52" display_value="Sky Movies 5"/><EnumValue value="53" display_value="Sky Movies 6"/><EnumValue value="54" display_value="Sky Movies 7"/><EnumValue value="55" display_value="Sky Movies 8"/><EnumValue value="56" display_value="Sky Movies 9"/><EnumValue value="46" display_value="Sky Cinema 1"/><EnumValue value="57" display_value="Sky Movies Cinema"/><EnumValue value="47" display_value="Sky Cinema 2"/><EnumValue value="58" display_value="Sky Movies Cinema 2"/><EnumValue value="29" display_value="FilmFour"/><EnumValue value="67" display_value="TCM"/><EnumValue value="61" display_value="Sky Sports 1"/><EnumValue value="62" display_value="Sky Sports 2"/><EnumValue value="63" display_value="Sky Sports 3"/><EnumValue value="65" display_value="Sky Sports Xtra"/><EnumValue value="64" display_value="Sky Sports News"/><EnumValue value="23" display_value="British Eurosport"/><EnumValue value="39" display_value="MTV"/><EnumValue value="75" display_value="VH1"/><EnumValue value="3" display_value="BBC News 24"/><EnumValue value="8" display_value="BBC Parliament"/><EnumValue value="26" display_value="Discovery Channel"/><EnumValue value="73" display_value="UKTV Documentary"/><EnumValue value="74" display_value="UKTV People"/><EnumValue value="71" display_value="UKTV History"/><EnumValue value="24" display_value="Cartoon Network"/><EnumValue value="21" display_value="Boomerang"/><EnumValue value="41" display_value="Nickelodeon"/><EnumValue value="27" display_value="Disney Channel"/><EnumValue value="76" display_value="Discovery Kids"/><EnumValue value="6" display_value="CBBC"/><EnumValue value="7" display_value="Cbeebies"/><EnumValue value="40" display_value="Nick Jr"/><EnumValue value="10" display_value="BBC Radio 1"/><EnumValue value="11" display_value="BBC Radio 2"/><EnumValue value="12" display_value="BBC Radio 3"/><EnumValue value="13" display_value="BBC Radio 4"/><EnumValue value="14" display_value="BBC Radio 5 Live"/><EnumValue value="9" display_value="BBC World Service"/><EnumValue value="19" display_value="BBC Asian Network"/><EnumValue value="20" display_value="ABC1"/><EnumValue value="16" display_value="BBC Radio 6 Music"/><EnumValue value="18" display_value="BBC Seven Digital"/><EnumValue value="17" display_value="1Xtra"/><EnumValue value="15" display_value="BBC Radio 5 Extra"/></UserPref>
+	<Content 
+		type="url" 
+		href="http://tv.blueghost.co.uk/feeds/html/channel/__UP_channel__" />
+</Module>

@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BluegGhost PG</title>
+<link rel="stylesheet" type="text/css" href="../styles/style.css">
+<script type="text/javascript">
+	function goToTime(){
+		loadLinks();
+		var d = new Date();
+		var h = d.getHours();
+		var href = document.location.href;
+		if (href == 'http://tv.blueghost.co.uk/'){
+			document.location.href = document.location.href + '#hour_'+h;
+			return;
+		}
+		if (href.indexOf('http://tv.blueghost.co.uk/index.php') != -1){
+			document.location.href = document.location.href + '#hour_'+h;
+			return;
+		}
+		if (href.indexOf('http://tv.blueghost.co.uk/index_view.php') != -1){
+			document.location.href = document.location.href + '#hour_'+h;
+			return;
+		}
+		if (href.indexOf('http://tv.blueghost.co.uk/index_side_view.php') != -1){
+			document.location.href = document.location.href + '#hour_'+h;
+			return;
+		}
+		if (href.indexOf('http://tv.blueghost.co.uk/index_bleb.php') != -1){
+			document.location.href = document.location.href + '#hour_'+h;
+			return;
+		}
+	}
+	
+	function showStatus(txt){
+		var s = document.getElementById('status_text');
+		s.innerHTML = txt;
+	}
+	
+	var links = [];
+	var link_titles = [];
+	var as = [];
+	
+	function loadLinks(){
+		var l = document.getElementsByTagName('a');
+		for (var i = 0; i < l.length; i++){
+			links.push(l[i].href);
+			link_titles.push(l[i].innerHTML);
+			as.push(l[i]);
+		}
+	}
+	
+	function doLocalSearch(text){
+		var r_box = document.getElementById('searchResults');
+		if (text.length >3){
+			var results = [];
+			r_box.className = 'sResults';
+			r_box.innerHTML = '';
+			for (var i = 0; i < link_titles.length; i++){
+				if (link_titles[i].toLowerCase().indexOf(text) !=-1){
+					var prev = as[i].previousSibling; //br
+					if (prev != null)
+						prev = prev.previousSibling; //strong - time
+					var td = as[i].parentNode;
+					var chan = td.title;
+					chan = chan.substring(0,chan.indexOf(':'));
+					//alert(prev);
+					var result = document.createElement('a');
+					result.href= links[i];
+					if (prev != null)
+						result.innerHTML = link_titles[i] + ' ('+chan + prev.innerHTML+')';
+					else
+						result.innerHTML = link_titles[i];
+					result.title = as[i].title;
+					results.push(result);
+				}
+			}
+			if (results.length > 0){
+				for(var i = 0; i < results.length; i++){
+					r_box.innerHTML += '<a href="'+results[i].href+'">'+results[i].innerHTML+'</a> - ' + results[i].title + '<br />';
+				}
+			}else{
+				r_box.innerHTML = 'No Results Found';
+			}
+		}else{
+			r_box.className = 'sResults';
+			r_box.innerHTML = 'Need more than 3 characters';
+		}
+	}
+	
+	function createXML(){
+		if (window.XMLHttpRequest) {
+        	//req = new XMLHttpRequest();
+			return new XMLHttpRequest();
+    		// branch for IE/Windows ActiveX version
+    	} else if (window.ActiveXObject) {
+        	//req = new ActiveXObject("Microsoft.XMLHTTP");
+			return new ActiveXObject("Microsoft.XMLHTTP");
+    	}
+	}
+	
+	function doXMLHTTPRequest(f_name, url){
+		var request = createXML();
+		request.open("GET", url	, true);
+		request.onreadystatechange = function() {
+			if (request.readyState == 4) {
+				if (request.status == 200) {
+					f_name(request);
+				}
+			}
+		};
+		request.send(null);
+	}
+	
+	function setStyle(box, style){
+		box = document.getElementById(box);
+		box.className = style;
+	}
+	
+	function doSeriesSearch(prog){
+		var r_box = document.getElementById('seriesResults');
+		r_box.className = 'sResults';
+		r_box.innerHTML = 'Searching...';
+		doXMLHTTPRequest(getSeriesResults, 'http://tv.blueghost.co.uk/ajax_series.php?query='+prog);
+	}
+	
+	function getSeriesResults(response){
+		var r_box = document.getElementById('seriesResults');
+		r_box.innerHTML = response.responseText
+	}
+	
+	function getSearchResults(response){
+		var r_box = document.getElementById('searchResults');
+		r_box.innerHTML = response.responseText
+	}
+	
+	function doAllSearch(text){
+		var r_box = document.getElementById('searchResults');
+		if (text.length >3){
+			r_box.className = 'sResults';
+			r_box.innerHTML = 'Searching...';
+			doXMLHTTPRequest(getSearchResults, 'http://tv.blueghost.co.uk/ajax_search.php?query='+text);
+		}else{
+			r_box.className = 'sResults';
+			r_box.innerHTML = 'Need more than 3 characters';
+		}
+	}
+	
+	function clearS(obj){
+		if (obj.value == "Enter Search Query")
+			obj.value= "";
+	}
+		
+	function redo(obj){
+		if (obj.value == ""){
+			obj.value= "Enter Search Query";
+			var sb = document.getElementById('searchResults');
+			sb.innerHTML = '';
+			sb.className = 'hidden';
+		}
+	}
+	
+	function newS(box){
+		var sbt = document.getElementById(box);
+		var sb = document.getElementById('searchResults');
+		sb.innerHTML = '';
+		sb.className = 'hidden';
+		sbt.value= "Enter Search Query";
+	}
+	
+</script>
+</head>
+
+<body onload="javascript:goToTime();">
+<div id="header">
+BlueGhost P(rogram) G(uide)</div>
+
+<div class="menu">
+
+| <a href="index.php">INDEX PAGE</a> | <a href="index_view.php">TOP VIEW</a> | <a href="index_side_view.php">SIDE VIEW</a> | SELECT DAY:&nbsp;
+	| <a href="/tv/nn.php?channel=2&amp;day=0">TODAY</a> | <a href="/tv/nn.php?channel=2&amp;day=1">TOMORROW</a> | <a href="/tv/nn.php?channel=2&amp;day=2">2</a> | <a href="/tv/nn.php?channel=2&amp;day=3">3</a> | <a href="/tv/nn.php?channel=2&amp;day=4">4</a> | <a href="/tv/nn.php?channel=2&amp;day=5">5</a> | <a href="/tv/nn.php?channel=2&amp;day=6">6</a> | <a href="/tv/nn.php?channel=2&amp;day=7">7</a> 	| <span id="status_text"></span> |
+
+</div>
+<div class="menu">
+<span id="date_text">Friday 4th November 2005</span>&nbsp;|&nbsp;
+Search This Page: <input id="sBoxText"type="text" size="20" maxlength="100" onkeyup="javascript:doLocalSearch(this.value);" onblur="javascript:redo(this);" onfocus="javascript:clearS(this);" value="Enter Search Query" /> <a href="javascript:newS('sBoxText');">Clear Search</a>&nbsp;|&nbsp;Search All Programs: <input id="sABoxText"type="text" size="20" maxlength="100" onkeyup="javascript:doAllSearch(this.value);" onblur="javascript:redo(this);" onfocus="javascript:clearS(this);" value="Enter Search Query" /> <a href="javascript:newS('sABoxText');">Clear Search</a>&nbsp;|&nbsp;
+<div class="sResults" id="searchResults"></div>
+</div>
+<div id="content"><div class="nnext_box"><h1>BBC One</h1><a href="program.php?p=crid://bbc.co.uk/272938825">BBC Ten O'Clock News. (  04/11/05 22:00 ) - National and international news, with reports from BBC correspondents worldwide. [S]</a><a href="program.php?p=crid://bbc.co.uk/272938874">BBC London News. (  04/11/05 22:25 ) - The latest stories from the BBC London newsroom. Followed by the national headlines and Weather. [S]</a></div><div class="nnext_box"><h1>BBC Two</h1><a href="program.php?p=crid://bbc.co.uk/277134149">QI. (  04/11/05 22:00 ) - Stephen Fry rhymes cockneys, catfish and coal with Bill Bailey, Rory McGrath, Phill Jupitus and Alan Davies. [S]</a><a href="program.php?p=crid://bbc.co.uk/277134125">Newsnight Review. (  04/11/05 23:00 ) - Newsnight reviews the latest releases in the arts. [S]</a></div><div class="nnext_box"><h1>BBC Three</h1><a href="program.php?p=crid://bbc.co.uk/272938320">EastEnders. (  04/11/05 22:00 ) - Chrissie feels anxious as the residents grow more suspicious. Stacey's disappearance causes deep concern. [AD,S]</a><a href="program.php?p=crid://bbc.co.uk/285194157">The Comic Side of 7 Days. (  04/11/05 22:25 ) - The comedy show that's brought to you by the number seven. Britain's top seven comics dissect the week's top seven news stories in a lightning-fast digest of the last seven days.</a></div><div class="nnext_box"><h1>BBC Four</h1><a href="program.php?p=crid://bbc.co.uk/1103146484">George Michael Talks to Kirsty Wark. (  04/11/05 22:00 ) - In a rare interview, George Michael talks candidly about his plans to release future work as charity downloads, and his thoughts on British identity, politics, the Iraq War and bereavement.</a><a href="program.php?p=crid://bbc.co.uk/1103146479">QI. (  04/11/05 22:30 ) - 7/12. Stephen Fry samples chihuahuas, cheese and constellations with Jeremy Clarkson, Rich Hall, Sean Lock and Alan Davies in another round of the light-hearted intellectual panel game. [S]</a></div><div class="nnext_box"><h1>BBC News 24</h1><a href="program.php?p=crid://bbc.co.uk/289385653">BBC News. (  04/11/05 22:00 ) - BBC News 24 presents a comprehensive digest of all the day's news, including the latest sports results.</a><a href="program.php?p=crid://bbc.co.uk/289391420">World Business Report. (  04/11/05 22:30 ) - The latest business news from around the world with live reports from Singapore, Frankfurt and London and the news of what happened overnight in New York.</a></div><div class="nnext_box"><h1>BBC Parliament</h1><a href="program.php?p=crid://bbc.co.uk/1098952003">Business Questions. (  04/11/05 22:10 ) - Leader of the Commons Geoff Hoon sets out the business for the coming week. Recorded 3rd November.</a><a href="program.php?p=crid://bbc.co.uk/1098952004">The Record. (  04/11/05 23:00 ) - Highlights of the week in parliament presented by Alicia McCarthy.</a></div><div class="nnext_box"><h1>CBBC</h1><a href="program.php?p=crid://bbc.co.uk/OffAirCBBC">This is CBBC!. (  04/11/05 19:00 ) - Join the CBBC crew for all your favourite programmes, plus loads more! Tune into CBBC everyday from 7.00am to 7.00pm.</a></div><div class="nnext_box"><h1>Cbeebies</h1><a href="program.php?p=crid://bbc.co.uk/OffAirCBeebies">This is CBeebies!. (  04/11/05 19:00 ) - CBeebies is the BBC channel for under sixes, encouraging children to learn through play. You can join in the fun every day from 6.00am to 7.00pm.</a></div><div class="nnext_box"><h1>BBC Radio 1</h1><a href="program.php?p=crid://bbc.co.uk/939563295">Westwood Radio 1. (  04/11/05 21:00 ) - Tim Westwood spinning the best hip hop, with special feature Freestyle Friday, with Tim dropping classic freestyle from past shows.</a><a href="program.php?p=crid://bbc.co.uk/939563296">Radio 1 Reggae Dancehall Nite. (  04/11/05 23:00 ) - The man with the Golden touch, Chris Goldfinger, spins the best reggae and ragga tunes, with special guest Maxi Priest. Call in on 08700 100100 [national rates] to big up your crew.</a></div><div class="nnext_box"><h1>BBC Radio 2</h1><a href="program.php?p=crid://bbc.co.uk/943759591">The Green Room. (  04/11/05 22:00 ) - Joining Fiona Bruce tonight are opera singer Katherine Jenkins, and actress Lindsay Duncan who plays Servilia in the lavish new BBC series Rome.</a></div><div class="nnext_box"><h1>BBC Radio 3</h1><a href="program.php?p=crid://bbc.co.uk/947951994">Night Waves. (  04/11/05 21:55 ) - Matthew Sweet talks to South African writer Nadine Gordimer about Get a Life; her latest novel in which a scientist treated for thyroid cancer becomes a radioactive danger to his nearest and dearest.</a><a href="program.php?p=crid://bbc.co.uk/947951995">Mixing It. (  04/11/05 22:25 ) - Mark Russell and Robert Sandall present a double bill from the ICA in London, featuring the Berlin-based singer and electronica producer Kevin Blechdom and the defiantly experimental Fiery Furnaces.</a></div><div class="nnext_box"><h1>BBC Radio 4</h1><a href="program.php?p=crid://bbc.co.uk/952147234">The World Tonight. (  04/11/05 22:00 ) - Analysis of the day's national and international stories, including interviews with politicians and public figures, with Robin Lustig.</a><a href="program.php?p=crid://bbc.co.uk/952147235">Book at Bedtime. (  04/11/05 22:45 ) - Sweet Danger, by Margery Allingham. 10/10. The proofs are at hand, the drum and crown are safe, and Hal Fitton is revealed to be the rightful Earl of Pontisbright.</a></div><div class="nnext_box"><h1>BBC Radio 5 Live</h1><a href="program.php?p=crid://bbc.co.uk/1174445363">Brian Hayes. (  04/11/05 22:00 ) - A look back at the day's news and sport headlines, plus a glimpse of tomorrow's newspapers. Log on to bbc.co.uk/fivelive for more information.</a></div><div class="nnext_box"><h1>BBC World Service</h1><a href="program.php?p=crid://bbc.co.uk/1736479803">World Briefing. (  04/11/05 22:00 ) - World news and dispatches.</a><a href="program.php?p=crid://bbc.co.uk/1736479804">World Business Report. (  04/11/05 22:30 ) - Analysis of the key business issues of the day, with up-to-date information on key currency rates, commodity prices and stock market indices.</a></div><div class="nnext_box"><h1>BBC Asian Network</h1><a href="program.php?p=crid://bbc.co.uk/1195414185">Late Nights. (  04/11/05 22:00 ) - The very latest releases of Brit-Asian music, with Dipps Bhamrah sitting in for Adil Ray. For more information, log on to bbc.co.uk/asiannetwork.</a></div><div class="nnext_box"><h1>BBC Radio 6 Music</h1><a href="program.php?p=crid://bbc.co.uk/1182830647">Craig Charles Funk Show. (  04/11/05 20:00 ) - Get ready for Three Northern Soul dancefloor fillers in Talcum Time, a slice of grit and raunch in The Real R'n'B and the ever-popular Funk Me Sideways.</a><a href="program.php?p=crid://bbc.co.uk/1182830644">6 Mix. (  04/11/05 23:00 ) - A fabulous 6 Mix from Garry Cobain and Brian Dougans, better known as the Future Sound of London.</a></div><div class="nnext_box"><h1>BBC Seven Digital</h1><a href="program.php?p=crid://bbc.co.uk/1187027479">People Like Us. (  04/11/05 22:00 ) - The Farmer: Award winning comedy with Roy Mallard. Today the hapless broadcaster tries to give us a fly on the wall look at a farmer's life. Episode 1 of 6.</a><a href="program.php?p=crid://bbc.co.uk/1187027495">Jeremy Hardy Speaks to the Nation. (  04/11/05 22:30 ) - Jeremy Hardy brings his incisive comedy to the nation. This week he discusses 'how to live' in 2001. Episode 2 of 6.</a></div><div class="nnext_box"><h1>1Xtra</h1><a href="program.php?p=crid://bbc.co.uk/1191221613">The Set Up with Manny Norte. (  04/11/05 22:00 ) - You want this party started right! Set it off with Manny in and out of a hip hop, RnB and dancehall party mix. Txt us on 88111 [max cost 12p] or go to bbc.co.uk/1xtra. Next - Soul Power with DJ B.</a></div><div class="nnext_box"><h1>BBC Radio 5 Extra</h1><a href="program.php?p=crid://bbc.co.uk/1178640067">On Sports Extra This Month.... (  04/11/05 18:00 ) - Sports Extra International Rugby Union: Coming up on Saturday at 3.55pm, uninterrupted live commentary on Wales v New Zealand from Cardiff. Log on to bbc.co.uk/sportsextra for more info.</a></div></div>
+
+<div id="footer" align="center">
+| Copyright Michael Pritchard 2005 | <a href="about.php">About Page</a> | supported by <a href="http://backstage.bbc.co.uk" target="_blank">backstage.bbc.co.uk</a> | other data from <a href="http://www.bleb.org/tv/" target="_blank">http://www.bleb.org/tv/</a> |</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+//get tags
+SELECT `tag_id`
+FROM `program_genre_tags`
+WHERE `prog_id` = 'crid://bbc.co.uk/272934811'
+LIMIT 0 , 30
+
+//get tag names
+SELECT `genre_type` , `name`
+FROM `genre_tags`
+WHERE `id` =1
+LIMIT 0 , 30
+
+//get type
+
+SELECT `name`
+FROM `genre_types`
+WHERE `id` =1
+LIMIT 0 , 30
+
+SELECT gtype.name, gtag.name FROM program_genre_tags pgt, genre_tags gtag, genre_types gtype
+WHERE
+pgt.prog_id = 'crid://bbc.co.uk/272934811'
+AND
+gtag.id = pgt.tag_id
+AND
+gtype.id = gtag.genre_type

@@ -1,0 +1,48 @@
+RewriteEngine on
+
+#tv.blueghost.co.uk old redirects
+RewriteCond %{HTTP_HOST} ^(www\.)?tv.blueghost\.co.uk
+RewriteRule ^(.*)$ http://www.blueghosttv.co.uk/$1 [R=301,L]
+
+#RSS Feeds
+RewriteRule ^feeds/rss/series/([\:\/A-Za-z0-9\+\_\.\+\'\!\,\-]+)/?$ rss.php?series=$1 [L]
+RewriteRule ^feeds/rss/genre/([\:\/A-Za-z0-9\+\_\.]+)/?$ rss.php?genre=$1 [L]
+RewriteRule ^feeds/rss/channel/([0-9]+)/?$ rss.php?channel=$1&date=today [L]
+RewriteRule ^feeds/rss/channel/([0-9]+)/today/?$ rss.php?channel=$1&date=today [L]
+RewriteRule ^feeds/rss/channel/([0-9]+)/([0-9\-]+)/?$ rss.php?channel=$1&date=$2 [L]
+RewriteRule ^feeds/rss/nn/([0-9]+)/?$ rss.php?nn=$1 [L]
+RewriteRule ^feeds/rss/nnp/([0-9\+]+)/?$ rss.php?nnp=$1 [L]
+
+#iCal Feeds
+RewriteRule ^feeds/ical/series/([\:\/A-Za-z0-9\+\_\.\+\'\!\,\-]+)/?$ ical.php?series=$1 [L]
+RewriteRule ^feeds/ical/genre/([\:\/A-Za-z0-9\+\_\.]+)/?$ ical.php?genre=$1 [L]
+RewriteRule ^feeds/ical/channel/([0-9]+)/?$ ical.php?channel=$1&date=today [L]
+RewriteRule ^feeds/ical/channel/([0-9]+)/today/?$ ical.php?channel=$1&date=today [L]
+RewriteRule ^feeds/ical/channel/([0-9]+)/([0-9\-]+)/?$ ical.php?channel=$1&date=$2 [L]
+
+#XML Feeds
+#RewriteRule ^feeds/xml/series/([\:\/A-Za-z0-9\+\_\.\+\'\!\,\-]+)/?$ xml.php?series=$1 [L]
+#RewriteRule ^feeds/xml/genre/([\:\/A-Za-z0-9\+\_\.]+)/?$ xml.php?genre=$1 [L]
+RewriteRule ^feeds/xml/channel/([0-9]+)/?$ xml.php?channel=$1&date=today [L]
+RewriteRule ^feeds/xml/channel/([0-9]+)/today/?$ xml.php?channel=$1&date=today [L]
+RewriteRule ^feeds/xml/channel/([0-9]+)/([0-9\-]+)/?$ xml.php?channel=$1&date=$2 [L]
+RewriteRule ^feeds/xml/channellist/?$ xml.php?channellist=true [L]
+RewriteRule ^feeds/xml/nnp/([0-9\+]+)/?$ xml.php?nnp=$1 [L]
+
+#HTML Feeds
+RewriteRule ^feeds/html/channel/([0-9]+)/?$ html.php?channel=$1 [L]
+RewriteRule ^feeds/html/channel/([0-9]+)/today/?$ html.php?channel=$1 [L]
+RewriteRule ^feeds/html/channel/([0-9]+)/([0-9]+)/?$ html.php?channel=$1 [L]
+RewriteRule ^feeds/html/nnp/([0-9\+]+)/?$ html.php?nnp=$1 [L]
+RewriteRule ^feeds/html/series/crid\:\/\/([\:\/A-Za-z0-9\+\_\.\+\'\!\,\-]+)/?$ series.php?s=$1 [L]
+RewriteRule ^feeds/html/series/([\:\/A-Za-z0-9\+\_\.\+\'\!\,\-]+)/?$ series.php?t=$1 [L]
+
+#Program View
+RewriteRule ^program/([\:\/A-Za-z0-9\+\_\.\+\'\!\,\-]+)/?$ program.php?p=$1 [L]
+
+#Channel View
+RewriteRule ^channel/([0-9]+)/?$ index.php?channel=$1 [L]
+RewriteRule ^channel/([0-9]+)/([0-9\-]+)/?$ index.php?channel=$1&day=$2 [L]
+
+#Genre Stuff
+RewriteRule ^genre/([A-Za-z0-9\/\'\-\+]+)/?$ genre.php?g=$1 [L]

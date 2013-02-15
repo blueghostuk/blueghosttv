@@ -1,0 +1,23 @@
+#title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: xx-large;
+	background-color: #CCCCCC;
+	position: fixed;
+	height: 1em;
+	width: 98%;
+}
+#footer {
+	text-align: center;
+	background-color: #999999;
+	position: fixed;
+	height: 1em;
+	bottom: 1em;
+	width: 98%;
+}
+#scroller {
+	overflow: scroll;
+	width: 98%;
+	position: fixed;
+	top: 2em;
+	bottom: 2em;
+}

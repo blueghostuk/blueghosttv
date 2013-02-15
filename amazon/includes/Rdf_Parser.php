@@ -1,0 +1,191 @@
+<?php
+class Rdf_Parser{
+  var $file;
+  var $output;
+  //var $detailed;
+  var $image;
+  var $javaOP;
+  var $combo;
+  //var $DBC;
+  //var $cat_id;
+  
+  var $currentTag;
+  var $flag;
+  var $count;
+  var $channel;
+  var $items;
+  var $base_url;
+
+  function setSource($source){
+    $this->file = $source;
+  }
+
+  function getSource(){
+    return $this->file;
+  }
+
+  function Rdf_Parser($source){
+    $this->setSource($source);
+    $this->output = null;
+  }
+  
+  function setBase($url){
+    $this->base_url = $url;
+  }
+
+  function getOutput(){
+    return $this->output;
+  }
+  
+  function getDetailed(){
+  	return $this->detailed;
+  }
+  
+  function getImage(){
+  	return $this->image;
+  }
+  
+  function getJavaOP(){
+  	return $this->javaOP;
+  }
+  
+  function getComboOutput(){
+    return $this->combo;
+  }
+  
+  //function setDBC($link, $cat_id){
+  	//$this->DBC = $link;
+	//$this->cat_id = $cat_id;
+  //}
+  
+  function parseFile(){
+    global $currentTag, $flag, $count, $channel, $items, $base_url, $DBC;
+    $currentTag = "";
+    $flag = "";
+    $count = 0;
+    
+    // this is an associative array of channel data with keys ("title","link","description")
+    $channel = array();
+
+    // this is an array of arrays, with each array element representing an <item>
+    
+    // each outer array element is itself an associative array
+    // with keys ("title", "link", "description")
+    $items = array();
+
+    // create parser
+    $xp = xml_parser_create();
+
+    // set element handler
+    xml_set_object($xp, &$this);
+    xml_set_element_handler($xp, "elementBegin", "elementEnd");
+    xml_set_character_data_handler($xp, "characterData");
+    //xml_parser_set_option($xp, XML_OPTION_CASE_FOLDING, TRUE);
+    //xml_parser_set_option($xp, XML_OPTION_SKIP_WHITE, TRUE);
+    
+    // read XML file
+    if (!($fp = fopen($this->file, "r"))){
+      die("Could not read $file");
+    }
+    
+    // parse data
+    while ($xml = fread($fp, 4096)){
+      if (!xml_parse($xp, $xml, feof($fp))){
+	die("XML parser error: " .xml_error_string(xml_get_error_code($xp)));
+      }
+    }
+
+    // destroy parser
+    xml_parser_free($xp);
+
+    // now iterate through $items[] array
+    // and print each item as a table row '\"'
+	$c = 0;
+    foreach ($items as $item){
+		//$item["title"] 			= str_replace("\"", "\'", $item["title"]);
+		$item["title"]			= html_entity_decode($item["title"]);
+		$item["title"]		 	= eregi_replace ("<a([^-]*([^-]|-([^-]|-[^>])))*</a>", "", $item["title"]);
+		$item["title"]		 	= eregi_replace ("<img([^-]*([^-]|-([^-]|-[^>])))* />", "", $item["title"]);
+		
+		//$item["link"] 			= str_replace("'", "\'", $item["link"]);
+		
+		//$item["description"] 	= str_replace("\"", "\'", $item["description"]);
+		$item["description"]	= html_entity_decode($item["description"]);
+		$item["description"]	= eregi_replace ("<a([^-]*([^-]|-([^-]|-[^>])))*</a>", "", $item["description"]);
+		$item["description"]	= eregi_replace ("<img([^-]*([^-]|-([^-]|-[^>])))* />", "", $item["description"]);
+		
+		//OLD LINE: $sql = 	"INSERT INTO `news_archiver` ( `id` , `title` , `link` , `desc`, `site` , `date`) "
+		//OLD LINE:     . " VALUES ( \"\", \"".$item['title']."\", \"".$item['link']."\", \"".$item['description']."\" , \"".$this->cat_id."\" , \"".time()."\" );";
+		
+	   	//$sql = 	"INSERT INTO `news_archiver` ( `id` , `title` , `link` ,  `site` , `date`) "
+        //		. " VALUES ( \"\", \"".$item['title']."\", \"".$item['link']."\", \"".$this->cat_id."\" , \"".time()."\" );";
+		//$res = $this->DBC->DB_search($sql);
+		//if (!$res) {
+   			//echo '<br />Could not run query: ' . mysql_error();
+   			//exit;
+		//}
+	   				
+	  	//try to remove html text
+	  	//$item["description"] = htmlentities($item["description"]);
+	  	// OLD JAVA OP = $this->javaOP 	= "<a href='".$base_url."/ref.php?re=" . $item["link"] . "' title='".$item["description"]."'>" . $item["title"] ."</a>\n";
+	  	if (c == 0)
+	  		$this->javaOP	= $item["title"]." >> ";
+		$this->output 		.= "<a class=\"news\" href=\"".$base_url."/ref.php?re=" . $item["link"] . "\" title=\"".$item["description"]."\">" . $item["title"] ."</a><br/>\n";
+	  	//$this->detailed 	.= "<a href=\"".$base_url."/ref.php?re=" . $item["link"] . "\" title=\"Go to this item\">" . $item["title"] ."</a>\n";
+	  	//$this->detailed 	.= "&nbsp;&raquo;&nbsp;<div class=\"desc\">".$item["description"]."</div>\n"; 
+	  	$this->combo 		.= "<option value=\"".$base_url."/ref.php?re=" . $item["link"] . "\">" . $item["title"] ."</option>\n";
+	  	$c++;
+    }
+	/*KEEP SERVER ALIVE $this->DBC->DB_disconnect();*/
+    if ($this->getOutput() == null)
+      return false;
+    else
+      return true;
+  }
+
+  // opening tag handler
+  function elementBegin($parser, $name, $attributes){
+    global $currentTag, $flag;
+    $currentTag = $name;
+    // set flag if entering <channel> or <item> block
+    if ($name == "ITEM"){
+      $flag = 1;
+    }else if ($name == "CHANNEL"){
+      $flag = 2;
+    }
+  }
+
+  function characterData($parser, $data){
+    global $currentTag, $flag, $items, $channel, $count;
+    $data = trim(htmlspecialchars($data));
+    if ($currentTag == "TITLE" || $currentTag == "LINK" ||$currentTag == "DESCRIPTION"){
+      // add data to $channels[] or $items[] array
+      if ($flag == 1){
+	$items[$count][strtolower($currentTag)] .= $data;
+      }else if ($flag == 2){
+	$channel[strtolower($currentTag)] .= $data;
+      }
+    }
+    
+    if ($currentTag == "URL"){
+      	$this->image = $data;
+    }
+    
+  }
+
+  // closing tag handler
+  function elementEnd($parser, $name){
+    global $currentTag, $count, $flag;
+    $currentTag = "";
+    
+    // set flag if exiting <channel> or <item> block
+    if ($name == "ITEM"){
+      $count++;
+      $flag = 0;
+    }else if ($name == "CHANNEL"){
+      $flag = 0;
+    }
+  }
+}
+
+?>
